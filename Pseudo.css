@@ -1,0 +1,26 @@
+@charset "utf-8";
+a:visited  {
+    color: brown;
+}
+a:link {
+    color: #000;
+}
+a:hover,
+a:focus {
+    background: yellow;
+    color:blueviolet
+}
+li:first-child {
+    background-color: coral;
+}
+li:last-child {
+    background-color: forestgreen;
+}
+li::first-letter {
+    font-size: 32px;
+}
+li::first-line {
+    color: green;
+}
+a::before, ::after {
+    content: "test";
